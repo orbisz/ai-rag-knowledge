@@ -20,20 +20,22 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
-            <groupId>org.springframework.ai</groupId>
-            <artifactId>spring-ai-openai-spring-boot-starter</artifactId>
-        </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework.ai</groupId>-->
+        <!--            <artifactId>spring-ai-openai-spring-boot-starter</artifactId>-->
+        <!--        </dependency>-->
 
-        <dependency>
-            <groupId>org.springframework.ai</groupId>
-            <artifactId>spring-ai-tika-document-reader</artifactId>
-        </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework.ai</groupId>-->
+        <!--            <artifactId>spring-ai-tika-document-reader</artifactId>-->
+        <!--        </dependency>-->
 
-        <dependency>
-            <groupId>org.springframework.ai</groupId>
-            <artifactId>spring-ai-pgvector-store-spring-boot-starter</artifactId>
-        </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework.ai</groupId>-->
+        <!--            <artifactId>spring-ai-pgvector-store-spring-boot-starter</artifactId>-->
+        <!--        </dependency>-->
+
+
 
         <dependency>
             <groupId>org.springframework.ai</groupId>
@@ -57,6 +59,10 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
+        <dependency>
+            <groupId>cn.bugstack</groupId>
+            <artifactId>orbisz-ai-rag-trigger</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>org.redisson</groupId>
@@ -75,10 +81,6 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
-            <groupId>cn.bugstack</groupId>
-            <artifactId>orbisz-ai-rag-trigger</artifactId>
-        </dependency>
     </dependencies>
 
     <build>
@@ -118,7 +120,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>cn.bugstack.xfg.dev.tech.Application</mainClass>
+                    <mainClass>cn.bugstack.orbisz.ai.rag.app.Application</mainClass>
                     <layout>JAR</layout>
                 </configuration>
             </plugin>

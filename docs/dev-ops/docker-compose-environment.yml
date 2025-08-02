@@ -1,4 +1,4 @@
-# docker-comopse -f docker-compose-environment.yml up -d
+# docker-compose -f docker-compose-environment.yml up -d
 version: '3'
 services:
   # 对话模型
@@ -54,7 +54,7 @@ services:
         condition: service_healthy
 
   vector_db:
-    image: pgvector/pgvector:v0.5.0
+    image: pgvector/pgvector:v0.8.0
     container_name: vector_db
     restart: always
     environment:
