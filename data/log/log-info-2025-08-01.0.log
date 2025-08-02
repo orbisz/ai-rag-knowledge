@@ -30,7 +30,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
-	at cn.bugstack.orbisz.ai.rag.app.Application.main(Application.java:12)
+	at cn.bugstack.orbisz.ai.rag.Application.main(Application.java:12)
 Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.ai.ollama.base-url' in value "${spring.ai.ollama.base-url}"
 	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
 	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
@@ -88,7 +88,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
-	at cn.bugstack.orbisz.ai.rag.app.Application.main(Application.java:12)
+	at cn.bugstack.orbisz.ai.rag.Application.main(Application.java:12)
 Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.ai.openai.OpenAiChatClient]: Factory method 'openAiChatClient' threw exception with message: OpenAI API key must be set
 	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:177)
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:647)
@@ -141,7 +141,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
-	at cn.bugstack.orbisz.ai.rag.app.Application.main(Application.java:12)
+	at cn.bugstack.orbisz.ai.rag.Application.main(Application.java:12)
 Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.ai.openai.OpenAiChatClient]: Factory method 'openAiChatClient' threw exception with message: OpenAI API key must be set
 	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:177)
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:647)
@@ -196,7 +196,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
-	at cn.bugstack.orbisz.ai.rag.app.Application.main(Application.java:12)
+	at cn.bugstack.orbisz.ai.rag.Application.main(Application.java:12)
 Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.ai.openai.OpenAiChatClient]: Factory method 'openAiChatClient' threw exception with message: OpenAI API key must be set
 	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:177)
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:647)
@@ -251,7 +251,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
-	at cn.bugstack.orbisz.ai.rag.app.Application.main(Application.java:12)
+	at cn.bugstack.orbisz.ai.rag.Application.main(Application.java:12)
 Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.ai.openai.OpenAiChatClient]: Factory method 'openAiChatClient' threw exception with message: OpenAI API key must be set
 	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:177)
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:647)
@@ -306,7 +306,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
-	at cn.bugstack.orbisz.ai.rag.app.Application.main(Application.java:12)
+	at cn.bugstack.orbisz.ai.rag.Application.main(Application.java:12)
 Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.ai.openai.OpenAiChatClient]: Factory method 'openAiChatClient' threw exception with message: OpenAI API key must be set
 	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:177)
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:647)

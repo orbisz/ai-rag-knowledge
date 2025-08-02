@@ -1,0 +1,50 @@
+25-08-02.13:27:15.836 [main            ] WARN  DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/D:/apache-maven-3.6.1/mvn_repo/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/D:/apache-maven-3.6.1/mvn_repo/org/json/json/20231013/json-20231013.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+25-08-02.13:27:15.889 [main            ] INFO  RAGTest                - Starting RAGTest using Java 17.0.10 with PID 41808 (started by zxy in F:\Java_project\ai-rag-knowledge\orbisz-ai-rag-app)
+25-08-02.13:27:15.893 [main            ] INFO  RAGTest                - The following 1 profile is active: "dev"
+25-08-02.13:27:17.779 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-08-02.13:27:17.784 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-08-02.13:27:17.829 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+25-08-02.13:27:19.273 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+25-08-02.13:27:19.949 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@11c3d538
+25-08-02.13:27:19.953 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+25-08-02.13:27:21.710 [main            ] INFO  Version                - Redisson 3.27.2
+25-08-02.13:27:22.510 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 101.43.191.204/101.43.191.204:16379
+25-08-02.13:27:22.729 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 101.43.191.204/101.43.191.204:16379
+25-08-02.13:27:24.859 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-08-02.13:27:25.087 [main            ] INFO  RAGTest                - Started RAGTest in 10.107 seconds (process running for 11.868)
+25-08-02.13:27:28.678 [main            ] INFO  RAGTest                - 上传完成
+25-08-02.13:27:28.757 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+25-08-02.13:27:28.764 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
+25-08-02.13:27:42.873 [main            ] WARN  DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/D:/apache-maven-3.6.1/mvn_repo/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/D:/apache-maven-3.6.1/mvn_repo/org/json/json/20231013/json-20231013.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+25-08-02.13:27:42.915 [main            ] INFO  RAGTest                - Starting RAGTest using Java 17.0.10 with PID 32572 (started by zxy in F:\Java_project\ai-rag-knowledge\orbisz-ai-rag-app)
+25-08-02.13:27:42.919 [main            ] INFO  RAGTest                - The following 1 profile is active: "dev"
+25-08-02.13:27:44.828 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-08-02.13:27:44.834 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-08-02.13:27:44.877 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+25-08-02.13:27:46.405 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+25-08-02.13:27:46.917 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@6d6241b4
+25-08-02.13:27:46.921 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+25-08-02.13:27:48.068 [main            ] INFO  Version                - Redisson 3.27.2
+25-08-02.13:27:48.895 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 101.43.191.204/101.43.191.204:16379
+25-08-02.13:27:49.147 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 101.43.191.204/101.43.191.204:16379
+25-08-02.13:27:50.828 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-08-02.13:27:50.984 [main            ] INFO  RAGTest                - Started RAGTest in 8.964 seconds (process running for 10.642)
+25-08-02.13:28:08.002 [main            ] INFO  RAGTest                - 测试结果:{"metadata":{"promptMetadata":{},"rateLimit":{"requestsLimit":0,"requestsRemaining":0,"requestsReset":{"nano":0,"negative":false,"seconds":0,"units":["SECONDS","NANOS"],"zero":true},"tokensLimit":0,"tokensRemaining":0,"tokensReset":{"$ref":"$.metadata.rateLimit.requestsReset"}},"usage":{"generationTokens":0,"promptTokens":0,"totalTokens":0}},"result":{"metadata":{"contentFilterMetadata":{"generationTokens":196,"promptTokens":76,"totalTokens":272},"finishReason":"unknown"},"output":{"content":"<think>\n嗯，用户问“王大瓜 1990年出生”，我应该先确认一下王大瓜的年龄和出生日期。根据提供的信息，“王大瓜 1990年出生”，这已经明确给出了他的出生年份，所以不需要进一步询问其他信息。\n\n接下来，用户可能希望获得一些关于王大瓜的信息，比如他在电影、音乐中的角色或者他的人生经历等。这些内容超出了提供的文档范围，因此不能直接提供。\n\n另外，用户要求答案准确，并且用中文回复，这表明我需要以中文回答问题，但不需要涉及文档中的其他信息或额外内容。所以，在这种情况下，我可以简单地确认王大瓜的出生年份，并询问更多关于他的更多信息。\n\n总结一下，我应该先确认已知的信息，然后提出进一步的问题，这样既能正确回应用户的需求，又能引导用户提供更多的资料。\n</think>\n\n王大瓜，哪年出生","media":[],"messageType":"ASSISTANT","properties":{}}},"results":[{"$ref":"$.metadata.rateLimit.result"}]}
+25-08-02.13:28:08.051 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+25-08-02.13:28:08.058 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.

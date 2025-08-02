@@ -1,4 +1,4 @@
-package cn.bugstack.orbisz.ai.rag.app.config;
+package cn.bugstack.orbisz.ai.rag.config;
 
 import org.redisson.Redisson;
 import org.redisson.api.RedissonClient;
