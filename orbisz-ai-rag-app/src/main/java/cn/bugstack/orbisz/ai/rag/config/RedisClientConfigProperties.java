@@ -1,4 +1,4 @@
-package cn.bugstack.orbisz.ai.rag.app.config;
+package cn.bugstack.orbisz.ai.rag.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

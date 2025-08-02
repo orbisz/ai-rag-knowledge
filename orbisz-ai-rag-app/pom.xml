@@ -120,7 +120,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>cn.bugstack.orbisz.ai.rag.app.Application</mainClass>
+                    <mainClass>cn.bugstack.orbisz.ai.rag.Application</mainClass>
                     <layout>JAR</layout>
                 </configuration>
             </plugin>

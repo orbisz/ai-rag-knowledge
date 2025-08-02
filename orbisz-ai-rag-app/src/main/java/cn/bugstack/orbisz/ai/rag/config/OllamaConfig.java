@@ -1,4 +1,4 @@
-package cn.bugstack.orbisz.ai.rag.app.config;
+package cn.bugstack.orbisz.ai.rag.config;
 
 import org.springframework.ai.ollama.OllamaChatClient;
 import org.springframework.ai.ollama.api.OllamaApi;
